@@ -34,5 +34,6 @@ jobs:
           context: ./src
           push: true
           tags: |
+            rafacarvalho0611/kube-news:latest
             rafacarvalho0611/kube-news:${{github.run_number}}
             
